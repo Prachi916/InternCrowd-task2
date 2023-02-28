@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  background: url(/images/back.webp);
+  background-size: cover;
+  font-family: sans-serif;
+}
+
+.registerbox {
+  width: 400px;
+  height: 600px;
+  background: #1b6768;
+  color: #fff0f0;
+  top: 45%;
+  left: 30%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  padding: 20px;
+}
+h1 {
+  margin: 0;
+  text-align: center;
+  font-size: 28px;
+  border: 10px;
+}
+a {
+  display: inline-block;
+  color: #83b9e8;
+}
+
+input[type="email"],
+input[type="password"] {
+  width: 90%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+button {
+  background-color: #b5f9e0;
+  color: rgb(43, 39, 39);
+  padding: 14px 20px;
+  margin: 20px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  font-size: medium;
+}
+button:hover {
+  opacity: 1;
+}
